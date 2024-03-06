@@ -42,7 +42,7 @@ else:
 '''num=int(input("Digite um número"))
 if(num>=0):
     print("O número é positivo")
-else if num < 0:
+elif num < 0:
     print("O número é negativo")
 else:
     print("O número é nulo")'''
@@ -51,7 +51,7 @@ else:
 '''EXERCICIO 5'''
 
 '''num=int(input("Digite um numero inteiro: "))
-if(num%5==0 or num%5==5):
+if(num%5==0):
     print("O número é multiplo de 5")
 else:
     print("Não é multiplo de 5")'''
