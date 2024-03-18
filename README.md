@@ -3,4 +3,4 @@
 ### Linguagens
 * PYTHON
 * ORACLE
-* CILAB
+* SCILAB
