@@ -2,5 +2,5 @@
 
 ### Linguagens
 * PYTHON
-* ORACLE
+* ORACLE (SQL)
 * SCILAB
