@@ -14,4 +14,3 @@ while (num_maior == 0):
             valor_soma = valor_soma * num_maior
             num_maior = num_maior - 1
     print(valor_soma)
-
