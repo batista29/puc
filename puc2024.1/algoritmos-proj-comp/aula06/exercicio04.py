@@ -1,9 +1,9 @@
-primeira = input("Digite algo")
-segunda = input("Digite algo")
+primeira = input("Digite algo\n")
+segunda = input("Digite outra coisa\n")
 
-print(primeira.find(segunda))
+posicaoSegunda = primeira.find(segunda) + (len(segunda))
 
-# for i in range(len(primeira)):
-#     if(primeira[i] == " "):
-#         primeira = primeira[i]
-    
+if(len(primeira) == posicaoSegunda):
+    print("É a ultima")
+else:
+    print("Não é a ultima")
