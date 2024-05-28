@@ -6,4 +6,4 @@ Organizado em semestres e dentro dos semestres organizado em matérias.
 * PYTHON - Para algoritmos e placas ESP32 usando micropython
 * ORACLE (SQL) - Banco de dados
 * SCILAB - Algebra linear
-* C (Arduino) - Sistemas
+* C++ (Arduino) - Sistemas
