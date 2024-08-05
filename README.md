@@ -2,7 +2,7 @@
 
 Organizado em semestres e dentro dos semestres organizado em matérias.
 
-### Linguagens
+## Linguagens
 
 ### 1° Semestre - https://github.com/batista29/puc/tree/main/puc2024.1
 * PYTHON - Algoritmos e ESP32 (micropython)
