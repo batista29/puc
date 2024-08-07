@@ -11,4 +11,5 @@ Organizado em semestres e dentro dos semestres organizado em matérias.
 * C++ (Arduino) - Sistemas eletrônicos
 
 ### 2° Semestre - https://github.com/batista29/puc/tree/main/puc2024.2
-* C - Algoritmos
+* C/C++ - Algoritmos
+* ORACLE (SQL) - Banco de dados
