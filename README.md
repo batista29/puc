@@ -1,6 +1,6 @@
 ## REPOSITÓRIO PARA GUARDAR LIÇÕES E TRABALHOS.
 
-Organizado em semestres e dentro dos semestres organizado em matérias.
+Organizado em semestres, matérias e aulas.
 
 ## Linguagens
 
