@@ -9,7 +9,10 @@ Organizado em semestres e dentro dos semestres organizado em matérias.
 * ORACLE (SQL) - Banco de dados
 * SCILAB - Algebra linear
 * C++ (Arduino) - Sistemas eletrônicos
+* PYTHON e ORACLE(SQL) - Projeto Integrador I
 
 ### 2° Semestre - https://github.com/batista29/puc/tree/main/puc2024.2
 * C/C++ - Algoritmos
 * ORACLE (SQL) - Banco de dados
+* TYPESCRIPT, JAVASCRIPT, NODEJS, HTML e CSS - Aplicações WEB
+* TYPESCRIPT, JAVASCRIPT, NODEJS, HTML, CSS e ORACLE(SQL) - Projeto Integrador II
