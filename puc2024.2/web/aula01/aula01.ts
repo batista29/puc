@@ -1,4 +1,4 @@
-function print(qualquerCoisa: any){
+function print(qualquerCoisa: any) {
     console.log(qualquerCoisa);
 }
 
@@ -34,8 +34,8 @@ if(numero%2 != 0){
 
 const R = 10;
 const pi = 3.14159265;
-const area = pi*(R*R);
-print("Area do circulo: "+area);
+const area = pi * (R * R);
+print("Area do circulo: " + area);
 
 /*
 Fazer um programa que calcule a velocidade de um veiculo,
