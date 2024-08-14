@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main()
 {
@@ -10,15 +12,17 @@ int main()
     Formula inverso de um número A é 1/A, pois A * 1/A = 1
     */
 
-    int numero;
+    string numero, inverso;
+
+    std::cout << numero;
 
     std::cout << "Digite um numero: ";
     std::cin >> numero;
-    std::cout << sizeof(numero);
 
-    for (int i = sizeof(numero); i >= 0; i--)
+    for (int i = numero.length(); i >= 0; i--)
     {
-        
+        inverso += numero[i];
     }
-    
+
+    std::cout << inverso;
 }
