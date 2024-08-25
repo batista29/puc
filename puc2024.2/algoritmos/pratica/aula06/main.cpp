@@ -30,9 +30,9 @@ int main()
         cout << "\n";
     }
 
-    int vetor[linhaM], vetorNovo[linhaM];
+    int vetor[colunaM], vetorNovo[colunaM];
 
-    while (cont < linhaM)
+    while (cont < colunaM)
     {
         cout << "Digite o valor da linha " << cont + 1 << " do vetor" << endl;
         cin >> valor;

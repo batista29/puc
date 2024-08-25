@@ -18,25 +18,25 @@
         CORREÇÃO SEMANA QUE VEM !!!!!!!!!!!!!!
  */
 
-        var credenciais = ["@juliano", "@batista", "@lucas", "@pedro", "@leandro",
-            "@marcos", "@vini", "@marcos", "@tiago", "@marcelo"];
-        var validas = ["@gabriel", "@batista", "@bruno", "@pedro", "@felipe",
-            "@renato", "@marcos", "@carlos", "@rafael", "@gustavo"];
-        
-        function autenticar(credenciais: any, validas: any) {
-        
-            var bloqueadas: any[10];
-            var contBlock: number = 0;
-        
-            for (let i: number = 0; i < credenciais.length; i++) {
-                for (let j: number = 0; j < credenciais.length; j++) {
-                    if (credenciais[j] !== validas[i]) {
-                        //erro aqui
-                        bloqueadas[contBlock] = credenciais[j];
-                    }
-                }
-            }
-            console.log(bloqueadas)
+
+var validas = ["@gabriel", "@batista", "@bruno", "@pedro", "@felipe",
+    "@renato", "@marcos", "@carlos", "@rafael", "@gustavo"];
+
+var credenciais = ["@juliano", "@batista", "@lucas", "@pedro", "@leandro",
+    "@marcos", "@vini", "@marta", "@tiago", "@marcelo"];
+
+function autenticar(credenciais: any, validas: any) {
+
+    var bloqueadas: Array<string> = [];
+
+    for (let i: number = 0; i < credenciais.length; i++) {
+        if (validas.includes(credenciais[i]) === true) {
+            console.log("Credencial: " + credenciais[i] + " e valida");
+        } else {
+            bloqueadas.push(credenciais[i]);
         }
-        
-        autenticar(credenciais, validas);
+    }
+    console.log("Credenciais bloqueadas: " + bloqueadas);
+}
+
+autenticar(credenciais, validas);
