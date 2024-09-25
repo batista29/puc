@@ -1,0 +1,21 @@
+{
+  "name": "super-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start" :"node ./build/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
