@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PI - Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #555454;
+            color: white;
+            padding: 0;
+            border: 0;
+        }
+
+        h1 {
+            font-size: 2em;
+            padding: 0;
+            border: 0;
+        }
+
+        #divLogin {
+            padding: 2em;
+            margin: 0;
+            background-color: black;
+            border: 2px solid #ccc;
+            max-width: 40%;
+            border-radius: 25px;
+        }
+
+        /*
+        h1 {
+            font-size: 5em;
+            border: 2px solid red;
+            padding: 0;
+            margin: 0;
+        }
+
+        form {
+            border: 2px solid yellow;
+        }
+
+        p {
+            border: 2px solid pink;
+        }
+        */
+    </style>
+    <script>
+        function exibirDados() {
+            var email = document.getElementById('email').value;
+            var senha = document.getElementById('pwd').value;
+            console.log(email);
+            console.log(senha);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="divLogin">
+        <h1>Login</h1>
+        <p>Informe seus dados para prosseguir</p>
+        <!-- Vamos colocar o formulario de login -->
+        <form id="meuform">
+            <p>
+                <label for="email">Email</label>
+                <br>
+                <input id="email" type="email" />
+            </p>
+            <p>
+                <label for="pwd">Password</label>
+                <br>
+                <input id="pwd" type="password">
+            </p>
+            <button type="buton" onclick="exibirDados();">Sign in</button>
+            <!-- <button type="reset">Reset</button> -->
+        </form>
+    </div>
+</body>
+
+</html>
