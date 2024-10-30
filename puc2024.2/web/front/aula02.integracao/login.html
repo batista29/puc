@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exemplo login</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #messageBox {
+            display: none;
+            background-color: rgb(105, 0, 0);
+            border: 3px solid red;
+            color: white;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        #messageBox p {
+            margin: 0;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        function isValid(email, password) {
+            if (email && password) {
+                return true;
+            } else if (email === undefined && password === undefined) {
+                showErrorMassage("Preencha todos os campos");
+            } else if (email === undefined && password) {
+                showErrorMassage("Preencha o email");
+            }
+            else {
+                showErrorMassage("Preencha a senha");
+            }
+        }
+
+        async function performLogin() {
+            const loginRoute = 'http://localhost:3000/login';
+            var email = document.getElementById('fieldEmail').value;
+            var password = document.getElementById('fieldPassword').value;
+
+            if (isValid(email && senha)) {
+                const reponse = await fetch(loginRoute);
+                if (reponse.status) {
+                    
+                }
+            } else {
+
+            }
+        }
+
+        function showErrorMassage(message) {
+            console.info('show error message');
+            var box = document.getElementById('messageBox');
+            document.getElementById('message').innerHTML = message;
+            box.style.display = 'block'
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form action="">
+        <p>
+            <label for="fieldEmail">Email</label><br>
+            <input type="text" id="fieldEmail">
+        </p>
+        <p>
+            <label for="fieldPassword">Password</label><br>
+            <input type="password" id="fieldPassword">
+        </p>
+        <button id="btn_login" type="button" onclick="performLogin()">Sign in</button>
+        <div id="messageBox">
+            <p id="message">Este é um exemplo de mensagem de erro</p>
+        </div>
+    </form>
+</body>
+
+</html>
