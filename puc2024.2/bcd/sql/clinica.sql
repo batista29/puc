@@ -24,15 +24,21 @@ CREATE TABLE paciente(
  telefone VARCHAR(13) NOT NULL,
  data_nascimento date NOT NULL,
  numero_quarto INTEGER NOT NULL,
- crm_medico INTEGER NOT NULL,
- foreign KEY (numero_quarto) references quarto(numero),
- hora_atendimento timestamp NOT NULL,
- foreign key(crm_medico) references medico(crm)
+ foreign KEY (numero_quarto) references quarto(numero)
+);
+
+CREATE TABLE tem(
+  crm_medico INTEGER NOT NULL,
+  cpf_paciente VARCHAR(11) NOT NULL,
+  hora_atendimento timestamp NOT NULL,
+  foreign key(cpf_paciente) references paciente(cpf),
+  primary key (crm_medico, cpf_paciente, hora_atendimento)
 );
 
 CREATE TABLE atende(
   crm_medico INTEGER NOT NULL,
   cpf_paciente VARCHAR(11) NOT NULL,
+  hora_atendimento timestamp NOT NULL,
   foreign key(cpf_paciente) references paciente(cpf),
   primary key (crm_medico, cpf_paciente)
 );
