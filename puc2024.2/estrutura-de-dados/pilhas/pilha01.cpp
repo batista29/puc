@@ -4,7 +4,7 @@
 
 using namespace std;
 
-struct lista
+struct lista 
 {
     int dado;
     struct lista *proximo;
