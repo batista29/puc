@@ -4,17 +4,17 @@
 
 using namespace std;
 
-struct lista 
+struct pilha 
 {
     int dado;
-    struct lista *proximo;
+    struct pilha *proximo;
 };
 
-struct lista *top = NULL;
+struct pilha *top = NULL;
 
 void push(int valor)
 {
-    struct lista *novo = (struct lista *)malloc(sizeof(struct lista));
+    struct pilha *novo = (struct pilha *)malloc(sizeof(struct pilha));
 
     novo->dado = valor;
     novo->proximo = top;
@@ -26,7 +26,7 @@ void push(int valor)
 
 void print()
 {
-    struct lista *temp;
+    struct pilha *temp;
     temp = top;
 
     while (temp != NULL)
@@ -45,7 +45,7 @@ void remover()
     }
     else
     {
-        struct lista *temp;
+        struct pilha *temp;
         temp = top;
         top = top->proximo;
         cout << "Valor " << temp->dado << " removido" << endl;
