@@ -16,3 +16,7 @@ Organizado em semestres, matérias e aulas.
 * ORACLE (SQL) - Banco de dados
 * TYPESCRIPT, JAVASCRIPT, NODEJS, HTML e CSS - Aplicações WEB
 * TYPESCRIPT, JAVASCRIPT, NODEJS, HTML, CSS e ORACLE(SQL) - Projeto Integrador II
+
+### 3° Semestre - https://github.com/batista29/puc/tree/main/puc2025.1
+* Kotlin, Jetpack Compose, Fire Store, Fire Authentication - Mobile
+* Kotlin, Jetpack Compose, Fire Store, Fire Authentication - Projeto Integrador III
