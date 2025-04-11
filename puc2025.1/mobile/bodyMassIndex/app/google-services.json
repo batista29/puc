@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919983266017",
+    "project_id": "calculadordeimc-8c80c",
+    "storage_bucket": "calculadordeimc-8c80c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919983266017:android:b8d71e001b1496d0ac3fa0",
+        "android_client_info": {
+          "package_name": "com.example.bodymassindex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeq3ZkgyhDTvyl_dkF4OjNcDIyqFddQeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
