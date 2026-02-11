@@ -1,0 +1,74 @@
+[33meb3832e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbranch-pra-merge[m[33m, [m[1;31morigin/branch-pra-merge[m[33m)[m Merge pull request #53 from batista29/agenda-home-atualizacoes
+[33m3676a8b[m[33m ([m[1;31morigin/agenda-home-atualizacoes[m[33m)[m Atualiza agenda e home com modificaçoes de banco e de logica
+[33m5acc77b[m Feat: Editar decrição do perfil funcionando
+[33mb325e12[m Merge remote-tracking branch 'origin/branch-pra-merge' into branch-pra-merge
+[33m6d8df5d[m Merge pull request #51 from batista29/navegacaoCondicional
+[33m9285d33[m Merge remote-tracking branch 'origin/branch-pra-merge' into branch-pra-merge
+[33m276560a[m Feat: Campo de editar descrição adicionado
+[33m0bb0e8c[m Merge pull request #50 from batista29/navegacaoCondicional
+[33m506c8f7[m[33m ([m[1;31morigin/navegacaoCondicional[m[33m)[m Feat: Navegação entre telas ok
+[33m66f72f5[m Merge pull request #49 from batista29/branch-pra-merge
+[33mf5b75aa[m Fix: Retirada de informações desnecessárias
+[33md7e1cb5[m Fix: Retirada de informações desnecessárias
+[33mb29d35f[m Redirecionando para tela home do veterinario
+[33m3d614c9[m Redirecionando para tela de editar perfil
+[33m75f692c[m Fix: Lendo dados do firebase
+[33m874ba26[m feat: Adicionando logica de navegacao condicional
+[33m30efaed[m Feat:Descrico adicionada
+[33ma76603c[m Feat: Campos de especialidade e tags funcionando
+[33me35b446[m Feat: Campos de especialidade e tags add
+[33m155b9e7[m Feat: Tela de editar ok
+[33m9e06162[m Fix: teste
+[33m3974f56[m Alteracoes agenda e home veterinario
+[33m698d96e[m Consertando a API_KEY
+[33mc4d975b[m Update AndroidManifest.xml
+[33m7a48503[m Fix: Retirando teste de mapa
+[33m00f922a[m Fix: Retirando comentários desnecessários
+[33m9826980[m Merge do Profesional Profile
+[33mc993727[m merge da Integração-servidor com HomepagePetOwner
+[33mdd97bec[m[33m ([m[1;31morigin/HomepagePetOwner[m[33m, [m[1;32mHomepagePetOwner[m[33m)[m Merge pull request #48 from batista29/scheduleScreen
+[33md8949e6[m[33m ([m[1;31morigin/scheduleScreen[m[33m, [m[1;32mscheduleScreen[m[33m)[m fix: Corrigindo erro de merge, substituiu uma parte da outra branch que nao era pra ter acontecido
+[33m5ce98ac[m Merge pull request #47 from batista29/searchHomepetOwner
+[33mb769440[m[33m ([m[1;31morigin/searchHomepetOwner[m[33m)[m Merge pull request #46 from batista29/scheduleScreen
+[33m410b87d[m feat: criando a tela de agendamento e colocando a logica de agendamento no boto de agendar
+[33m38f525c[m[33m ([m[1;31morigin/ProfessionalProfile[m[33m)[m Fix: Versão com pré-carregamento
+[33ma93dcab[m Fix: Versão com pré-carregamento
+[33m054353a[m[33m ([m[1;32msearchHomepetOwner[m[33m)[m feat: Criando logica de filtros avancados e pesquisa inteligente
+[33m6b8344a[m fix: bug na parte de cadastrar corrigido
+[33md3a9e05[m feat: Adicionando logica de dropdown list para usar na pesquisa
+[33mfb7e6da[m Feat: Mapa adicionado ao perfil
+[33me9ed292[m Fix: Versão estavel de volta
+[33m1156b1b[m Fix: Versão estavel de volta
+[33m40abdfe[m Voltando a versão sem API
+[33me014125[m Revert "Fix: Duas telas agora na mesma banch"
+[33mef8ecdd[m[33m ([m[1;31morigin/updateHome[m[33m, [m[1;32mupdateHome[m[33m)[m feat: Update app launcher icon
+[33m645f969[m feat: puxando os dados do Banco corretamento e implementando a logica de pegar loc pelo Cep
+[33m37674fd[m Feat: API google maps adicionada
+[33ma4e018b[m[33m ([m[1;31morigin/integração-server[m[33m)[m Adicionei o Servidor(ja está funcionando) no aplicativo adicionei que pra quando clicar no icone ele muda a tela
+[33me5b1680[m Fix: Duas telas agora na mesma banch
+[33m3690ea9[m Fix: teste
+[33mdc0e248[m Fix: Dados da data class profissional alterados
+[33m187154d[m Fix: Comentarios da tela
+[33mb74590d[m Fix: Lendo dados do user que esta logado e colocando na tela
+[33m4aa6f52[m[33m ([m[1;31morigin/ChatBot-Screen[m[33m)[m Fix: Atualização no padding da foto
+[33m3594122[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m Merge pull request #44 from batista29/feature/profilePetOwner
+[33ma10bc89[m[33m ([m[1;31morigin/feature/profilePetOwner[m[33m, [m[1;32mfeature/profilePetOwner[m[33m)[m feat: Create petOwner profile screen
+[33m8d4f4bf[m Fix: Estrutura completa
+[33m9e663eb[m Feat: Iniciando estrutura da tela
+[33mc405eaf[m[33m ([m[1;31morigin/ProfessionalProfile-Screen[m[33m)[m Fix:NavBar criado
+[33m34dd661[m Fix:Estrutura box mapa criada
+[33mc395c0c[m[33m ([m[1;31morigin/Edit-Professional-Profile[m[33m)[m Fix:Estrutura do perfil iniciada
+[33m9ec61a4[m Integração com banco de dados Firebase, conexão correta entre as telas
+[33ma323a21[m Merge pull request #40 from batista29/HomepagePetOwner
+[33mdff9b9d[m feat: create home screen with database integration
+[33m97ac173[m Adicionando TelaLogin.kt
+[33mbf0afce[m Telas iniciais: WelcomeActivity, InitialScreen, CadastrarPerfil, CriarPerfilTutor, CriarPerfilProfissional
+[33m13d8688[m Tela de CadastrarPerfilActivity com diferentes perfis
+[33m12adb17[m Ajustes estéticos na tela de Welcome e na InitialScreen
+[33m61e447a[m Implementação tela de InitialScreen
+[33mce7a238[m Implementação tela de Welcome e começo da tela de Login/Cadastro
+[33m5b43b35[m[33m ([m[1;32mmain[m[33m)[m Update README.md
+[33mfd8f19a[m Merge pull request #26 from batista29/dev
+[33mb01087e[m feat: add initial screens, models, viewmodels, and navigation setup
+[33m28a958e[m Add initial Android project structure
+[33m90206d2[m Initial commit

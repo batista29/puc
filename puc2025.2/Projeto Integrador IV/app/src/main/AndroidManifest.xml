@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.petcare">
+    <!-- Permissões de localização -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetCare"
+        tools:replace="android:label, android:icon , android:theme"
+        tools:targetApi="35">
+        <activity
+            android:name=".screens.AvaliacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.DetalhesVetScreen"
+            android:exported="false" />
+        <activity
+            android:name=".model.Avaliacao"
+            android:exported="false" />
+        <activity
+            android:name=".AgendamentoService"
+            android:exported="false" />
+        <activity
+            android:name=".screens.AgendaVetScreen"
+            android:exported="false" />
+        <activity
+            android:name=".screens.HomeVetScreen"
+            android:exported="false" />
+        <activity
+            android:name=".screens.AgendaProfissionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.AppNavHost"
+            android:exported="false" />
+        <activity
+            android:name=".screens.profilePetOwner"
+            android:exported="false" />
+        <activity
+            android:name=".screens.ProfessionalProfile"
+            android:exported="false" />
+        <activity
+            android:name=".screens.EditProfessionalProfile"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_cadastrar.InitialScreenActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".login_cadastrar.CadastrarPerfilActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".login_cadastrar.TelaLoginActivity"
+            android:exported="true"
+            android:label="Login"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".login_cadastrar.CriarPerfilTutorActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".login_cadastrar.CriarPerfilProfissionalActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" /> <!-- 🐾 Tela inicial pós-login (Tutor) -->
+        <activity
+            android:name=".screens.HomePetOwnerScreen"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" /> <!-- Tela padrão (não usada no fluxo principal) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+    </application>
+
+</manifest>

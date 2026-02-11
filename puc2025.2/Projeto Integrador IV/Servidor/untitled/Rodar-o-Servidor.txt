@@ -1,0 +1,8 @@
+cd .\IdeaProjects\PI_IV_ES_TIME15\Servidor\untitled\
+
+javac -cp "lib\mongo-java-driver-3.12.14.jar" -d bin src\*.java
+
+
+java -cp "bin;lib\mongo-java-driver-3.12.14.jar" Servidor
+
+para rodar o servidor

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEMA DO APP -->
+    <style name="Theme.PetCare" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- cores básicas (pode ajustar depois) -->
+        <item name="colorPrimary">#2E6B68</item>
+        <item name="colorPrimaryVariant">#245653</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#4AA39E</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+
+</resources>
